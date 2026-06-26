@@ -1,94 +1,43 @@
-# 🏗 Gaming Cafe Manager Architecture
+# Client Project Availability Notice
 
-## Architecture Overview
+## Gaming Cafe Manager
 
-Gaming Cafe Manager follows a layered architecture that separates responsibilities into independent modules.
+**Tech Stack:** Flutter, Dart, SQLite
 
-This approach improves:
+This project was developed as a **commercial software solution for a private gaming cafe client**.
 
-* Maintainability
-* Scalability
-* Code readability
-* Future backend integration
-* Testing and debugging
+## Project Overview
 
----
+The application includes:
 
-## High-Level Architecture
+* Offline-first architecture using SQLite
+* Device management system
+* Real-time session tracking
+* Automated billing and pricing calculations
+* Queue management
+* Revenue reporting and analytics
+* Business rule enforcement for operational accuracy
+* Modular application architecture for maintainability and scalability
 
-```text
-User Interface
-      │
-      ▼
-Screens
-      │
-      ▼
-Widgets & Services
-      │
-      ▼
-Database Layer
-      │
-      ▼
-SQLite Storage
-```
+## Source Code Availability
 
----
+The complete source code **cannot be made public** because it contains proprietary business logic and was developed for a commercial client.
 
-## Project Structure
+To respect client confidentiality and ownership of the software, the repository remains private and is not shared publicly.
 
-```text
-lib/
-│
-├── main.dart
-│
-├── data/
-│   └── app_data.dart
-│
-├── database/
-│   ├── database_helper.dart
-│   ├── device_db.dart
-│   ├── history_db.dart
-│   ├── queue_db.dart
-│   └── session_db.dart
-│
-├── models/
-│   ├── device.dart
-│   ├── history_item.dart
-│   ├── queue_item.dart
-│   └── session.dart
-│
-├── screens/
-│   ├── analytics_page.dart
-│   ├── devices_page.dart
-│   ├── history_page.dart
-│   ├── main_screen.dart
-│   ├── queue_page.dart
-│   ├── sessions_page.dart
-│   └── settings_page.dart
-│
-├── services/
-│   ├── backup_service.dart
-│   ├── export_service.dart
-│   ├── guest_service.dart
-│   ├── pause_service.dart
-│   ├── text_scale_service.dart
-│   └── theme_service.dart
-│
-├── theme/
-│   └── app_theme.dart
-│
-├── utils/
-│   └── snackbar_helper.dart
-│
-└── widgets/
-    ├── app_header.dart
-    ├── device_card.dart
-    ├── history_card.dart
-    ├── nav_button.dart
-    ├── queue_card.dart
-    └── session_card.dart
-```
+## Demonstration
 
-Please design and write your own code
+A demonstration video has been provided below as an example of the application's functionality and user interface. It showcases the core features and workflow of the system while respecting client confidentiality. No proprietary source code or sensitive client data is disclosed in the demonstration.
 
-without major restructuring of the current codebase.
+## Resume Reference
+
+This project is listed on my resume to demonstrate practical experience in:
+
+* Flutter application development
+* SQLite database design
+* Offline-first mobile architecture
+* Commercial software development
+* Business workflow automation
+* Modular software architecture
+
+Technical discussions, implementation details, architecture decisions, and development process can be explained during interviews. Selected code samples or similar implementations may be provided upon request where permitted.
